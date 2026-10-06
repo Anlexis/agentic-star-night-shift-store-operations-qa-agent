@@ -1,0 +1,90 @@
+[
+  {
+    "id": "kb-001",
+    "title": "POS register total mismatch and voided-transaction procedure",
+    "category": "register_pos",
+    "source": "Store Operations Manual, register procedures chapter",
+    "tags": ["pos", "register", "void", "total", "cash", "procedure", "drawer"],
+    "content": "If the POS register total does not match the drawer count at shift close, first re-run the register's X-report to confirm the recorded total, then recount the drawer twice. A voided transaction must be logged in the void book with the transaction ID, item, amount, and clerk initials before the drawer is closed out. Do not clear a discrepancy by adjusting the recorded total yourself - escalate any unresolved discrepancy over 1000 yen to the shift supervisor at handover."
+  },
+  {
+    "id": "kb-002",
+    "title": "Age verification for alcohol sales",
+    "category": "age_verification",
+    "source": "Store Operations Manual, regulated sales chapter",
+    "tags": ["age", "verification", "alcohol", "id", "sales", "20歳"],
+    "content": "Alcohol may only be sold to a customer confirmed to be 20 years or older. Always request photo identification (driver's license, My Number card, or passport) when the customer's age is not clearly and obviously well above 20. Check the birth date arithmetic yourself rather than trusting the customer's stated age. If the customer cannot produce identification or the identification appears altered, decline the sale politely and do not process the transaction."
+  },
+  {
+    "id": "kb-003",
+    "title": "Age verification for tobacco sales",
+    "category": "age_verification",
+    "source": "Store Operations Manual, regulated sales chapter",
+    "tags": ["age", "verification", "tobacco", "cigarette", "id", "sales"],
+    "content": "Tobacco products may only be sold to a customer confirmed to be 20 years or older, verified the same way as alcohol sales: request photo identification whenever age is not obviously well above 20. The POS system's age-confirmation prompt must be answered truthfully based on an actual identification check, never tapped through automatically. Selling tobacco without verification is a compliance violation that must be reported to the store manager."
+  },
+  {
+    "id": "kb-004",
+    "title": "収納代行 utility bill payment acceptance and cutoff",
+    "category": "bill_payment",
+    "source": "Store Operations Manual, bill payment agency (収納代行) chapter",
+    "tags": ["収納代行", "bill", "payment", "utility", "cutoff", "barcode"],
+    "content": "収納代行 (bill payment agency service) accepts utility, tax, and insurance bills presented with a valid barcode at the register. Scan the barcode and confirm the amount and due date shown on the POS screen match the printed bill before accepting payment. A bill presented after its printed due date, or with a barcode that fails to scan, cannot be accepted at the register - direct the customer to contact the issuer directly. The nightly 収納代行 cutoff time is printed on the shift schedule; payments accepted after cutoff are held for the next business day's reconciliation batch."
+  },
+  {
+    "id": "kb-005",
+    "title": "宅配便 parcel intake and customer pickup",
+    "category": "parcel_handling",
+    "source": "Store Operations Manual, parcel delivery (宅配便) chapter",
+    "tags": ["宅配便", "parcel", "delivery", "pickup", "intake", "tracking"],
+    "content": "For 宅配便 (parcel delivery service) drop-off, weigh the parcel, confirm the declared contents are not a prohibited item, and issue the tracking receipt to the customer before the courier's next collection window. For customer pickup of a held parcel, verify the tracking number and the recipient's name against the pickup notice or identification before releasing the parcel. Never release a held parcel to someone who cannot confirm the tracking number or produce matching identification."
+  },
+  {
+    "id": "kb-006",
+    "title": "消費期限 expiration date checks for perishable food",
+    "category": "food_safety",
+    "source": "Store Operations Manual, food safety chapter",
+    "tags": ["消費期限", "expiration", "food", "safety", "perishable", "discard"],
+    "content": "消費期限 (use-by / expiration date) applies to perishable items such as rice balls, sandwiches, and prepared meals; an item past its 消費期限 must be pulled from the shelf and discarded immediately - it may never be sold, and may only be taken as staff food with explicit manager approval. During the night shift, check remaining shelf stock against the printed expiration list at the scheduled interval and log every pulled item in the waste log with the item name, quantity, and reason."
+  },
+  {
+    "id": "kb-007",
+    "title": "Fryer, oden pot, and coffee machine troubleshooting",
+    "category": "equipment_troubleshooting",
+    "source": "Store Operations Manual, equipment chapter",
+    "tags": ["equipment", "fryer", "oden", "coffee", "troubleshooting", "error"],
+    "content": "If the fryer oil temperature alarm sounds, turn off the heating element immediately and do not use the fryer until it has been inspected - never attempt to override the alarm. If the oden pot temperature drops below the safe holding range, discard the batch rather than repeatedly reheating held stock. If the coffee machine displays a persistent error code, power-cycle it once following the posted instructions; if the error recurs, take the machine out of service and note it in the handover log rather than continuing to serve from it."
+  },
+  {
+    "id": "kb-008",
+    "title": "Night shift handover checklist",
+    "category": "shift_handover",
+    "source": "Store Operations Manual, shift handover chapter",
+    "tags": ["shift", "handover", "checklist", "handoff", "log"],
+    "content": "At shift handover, walk the incoming clerk through the register drawer count, any pending 収納代行 or 宅配便 items awaiting pickup, food items pulled for 消費期限, any equipment taken out of service, and any unresolved customer issue. Both clerks initial the handover log. An unresolved safety or security concern must be verbally flagged to the incoming clerk in addition to the log entry - never left for them to discover on their own."
+  },
+  {
+    "id": "kb-009",
+    "title": "強盗 robbery or threatening customer response protocol",
+    "category": "emergency_security",
+    "source": "Emergency Protocol Manual, security incidents chapter",
+    "tags": ["強盗", "robbery", "security", "threat", "weapon", "emergency"],
+    "content": "If a robbery is in progress, or a customer is behaving in a threatening or armed manner, do not resist and do not attempt to intervene or delay them. Comply with demands for cash or goods. Move to a safe location as soon as it is possible to do so. Once safe, call the police at 110 and notify your shift supervisor immediately. Preserve the scene for police - do not clean up or move items before officers arrive."
+  },
+  {
+    "id": "kb-010",
+    "title": "急病 sudden medical emergency response protocol",
+    "category": "emergency_medical",
+    "source": "Emergency Protocol Manual, medical incidents chapter",
+    "tags": ["急病", "medical", "emergency", "ambulance", "first aid"],
+    "content": "If a customer or staff member collapses, is unconscious, is not breathing normally, or shows signs of a severe medical emergency such as chest pain or heavy bleeding, call an ambulance at 119 immediately. Do not attempt medical treatment beyond basic first aid you are certified for. Stay with the person and keep them calm if it is safe to do so, and notify your shift supervisor as soon as the call is placed."
+  },
+  {
+    "id": "kb-011",
+    "title": "災害 fire, earthquake, and disaster response protocol",
+    "category": "emergency_disaster",
+    "source": "Emergency Protocol Manual, disaster response chapter",
+    "tags": ["災害", "fire", "earthquake", "disaster", "evacuate", "evacuation"],
+    "content": "If there is a fire, a strong earthquake, or another disaster, prioritize the safety of customers and staff over the store or its inventory. Follow the posted evacuation route and assembly point. If there is a fire, call 119 once you are safe. After an earthquake, check for gas leaks and structural damage before re-entering the store, and do not use open flames or elevators. Notify your shift supervisor as soon as it is safe to do so."
+  }
+]
